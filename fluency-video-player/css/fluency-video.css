@@ -1,0 +1,128 @@
+@media (max-width: 767px) {
+  .offset1 {
+    margin-left: 0px;
+  }
+}
+body {
+  background-color: #252525;
+  background-image: url(../images/bg.jpg);
+}
+.primaryColor {
+  background-color: #252525;
+}
+.secondaryColor {
+  background-color: #404040;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.logoBar {
+  height: 80px;
+  line-height: 80px;
+  padding-left: 6%;
+  background-color: #252525;
+}
+.mainContent {
+  background-color: #252525;
+}
+.bottomContent {
+  background-color: #252525;
+}
+.navBar {
+  margin: 0px;
+}
+.navBar h2 {
+  vertical-align: middle;
+}
+.videoPlayerWindow {
+  padding-left: 2%;
+  padding-bottom: 2%;
+}
+.videoPlayerWindow video {
+  border: 3px groove #534f4e;
+}
+.footer {
+  font-size: 12px;
+  line-height: 12px;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #656565;
+}
+.navButton {
+  color: #fefd7e;
+  margin-right: 6%;
+  margin-bottom: 2%;
+  line-height: 14px;
+  border: 3px groove #534f4e;
+  background-color: #404040;
+}
+.navButton h3 {
+  font-size: 1.1em;
+  margin-top: 1.2em;
+  margin-right: 1em;
+  margin-bottom: 0em;
+}
+.navButton p {
+  margin-top: .4em;
+  margin-bottom: : .5em;
+  font-size: .9em;
+  color: #fff;
+}
+.navButton li img {
+  width: 36%;
+  margin-left: 6%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  border: 1px solid #beb4ab;
+}
+.navButton:hover {
+  background-color: #806345;
+}
+.navButtonText {
+  display: inline-block;
+  padding-left: 4%;
+  width: 50%;
+  vertical-align: middle;
+  text-shadow: 1px 1px 3px #000000;
+}
+.streamZ {
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+#titleBar {
+  background-image: url(../images/titleBar.jpg);
+  height: 42px;
+  line-height: 42px;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-left: 6%;
+  text-shadow: 1px 1px 3px #000000;
+}
+#spacerBar {
+  height: 30px;
+  background-color: #252525;
+}
+#navBarHeader {
+  height: 30px;
+  color: #dd0f11;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 6%;
+  margin-top: 0px;
+  margin-right: 6%;
+  margin-bottom: 2%;
+  line-height: 30px;
+  font-size: 2em;
+  border: 3px groove #534f4e;
+  text-shadow: 1px 1px 3px #000000;
+  background-color: #404040;
+}
+#navBarData {
+  margin: 0px;
+  padding: 0px;
+}
+#navBarData li {
+  list-style: none;
+  padding: 0px;
+}
