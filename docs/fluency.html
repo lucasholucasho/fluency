@@ -1,0 +1,872 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <meta property="og:site_name" content="Interactive Docs"/>
+    <meta property="og:title" content="Interactive Docs"/>
+    <meta property="og:description" content="Docs the way you want them"/>
+    <meta property="og:image" content="/images/social_logo.jpg">
+    <meta property="og:url" content="http://interactivedocs.com">
+
+    <title>Fluency</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/fluency-styles.css?abc1"/>
+    <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="css/prism.css"/>
+
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/prism.js" type="text/javascript"></script>
+    <script src="js/jquery.zclip.js" type="text/javascript"></script>
+
+    <script src="js/ZeroClipboard.swf" type="text/javascript"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar-example">
+
+<div class="fade-in-page" style="opacity: 0;">
+
+
+    <nav>
+        <h1><a href="/index.html">Interactive <span>Docs</span></a></h1>
+            <span>
+                <img class="sffsLink" src="images/sffs_logo.png" width="150"/>
+                <span class="fiscal-sponsor-text">Interactive Docs is fiscally sponsored by the San Francisco Film Society.</span>
+            </span>
+    </nav>
+
+    <div class="fluency-hero-frame">
+    </div>
+
+    <div class="fluency-hero">
+
+        <div>
+
+            <h1>
+                <span>f</span>
+                <span>l</span>
+                <span>u</span>
+                <span>e</span>
+                <span>n</span>
+                <span>c</span>
+                <span>y</span>
+            </h1>
+
+            <h2>An HTML, CSS, and Javascript<br />framework for interactive video</h2>
+
+        </div>
+
+        <ul class="color-strip">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+    </div>
+
+    <h1 class="fluency-tagline">Visual languages exist for film and design.<br />Fluency is a new form of communication.</h1>
+
+    <div class="positioned-sections">
+
+        <div class="container">
+
+            <div class="col-md-8">
+
+                <section>
+
+                    <h3>Introduction</h3>
+
+                    <p>Fluency provides independent filmmakers with everything they need to make an interactive film. Anyone that knows basic HTML and CSS can use Fluency to make an interactive film.</p>
+
+                    <p>The name refers to the visual language of film. User interface design has its own visual language. Fluency is designed to promote and standardize a new language for interactive film.</p>
+
+                </section>
+
+                <section>
+
+                    <h3>Getting started</h3>
+
+                    <p>It's easy to install Fluency. Download and unzip the the framework. Remove the Javascript and CSS files, place them in the appropriate directories, and link to them in the header of your page.</p>
+
+                    <div class="code-snippet">
+
+                        <div class="header">
+
+                            <em>Example</em>
+
+                            <span class="copy-link" id="copy-head">Copy</span>
+
+                        </div>
+
+                    <div class="markup">
+
+<pre class="language-markup line-numbers"><code class="language-markup" id="head-markup">&lt;link rel="stylesheet" type="text/css" href="css/fluency.css"/&gt;
+&lt;script type="text/javascript" src="js/fluency.js"&gt;&lt;/script&gt;</code></pre></div>
+
+                    </div>
+
+                </section>
+
+                <section>
+
+                    <h3>Contribute</h3>
+
+                    <h4>Hackathons</h4>
+                    <p>Fluency is an open source framework available for use under the <a href="http://choosealicense.com/licenses/mit/" target="_blank">MIT license</a>. Here's a link to the project on GitHub. We also hold <a href="http://www.meetup.com/Interactive-Film-Hackathon-in-SF/events/207739422/" target="_blank">hackathons</a>. If you live in the San Francisco Bay Area and want to join us next time, join our <a href="http://www.meetup.com/Interactive-Film-Hackathon-in-SF/" target="_blank">meetup group</a>.</p>
+
+                    <h4>Mobile is not first here</h4>
+                    <p>While it's important to design web pages and applications for mobile use, interactive film is different. Future versions of this framework will embrace mobile, especially when it comes to graceful degradation, but we need to get the core framework working before designing for other platforms.</p>
+
+                    <h4>Submitting pull-requests</h4>
+                    <p>The most effective way to contribute is to attend our hackathons, but feel free to submit pull-requests for us to review. Reach out to us if you want to make a major contribution or influence the direction of the framework.</p>
+
+                </section>
+
+                <section>
+
+                    <h3 id="css-anchor">CSS</h3>
+
+                    <!-- Typography Feature -->
+
+                    <div class="feature">
+
+                        <h4 id="typography-anchor">Typography</h4>
+
+                        <h5>Headings</h5>
+                        <p>All headings between <code class="language-markup">&lt;h1&gt;</code> and <code class="language-markup">&lt;h6&gt;</code> are set in proportion to one another.</p>
+
+                        <div class="code-snippet">
+
+                            <div class="header">
+
+                                <em>Example</em>
+
+                                <a class="copy-link" href="#" id="copy-titles">Copy</a>
+
+                            </div>
+
+                            <div class="element">
+
+                                <h1>Lorem ipsum</h1>
+                                <h2>Lorem ipsum</h2>
+                                <h3>Lorem ipsum</h3>
+                                <h4>Lorem ipsum</h4>
+                                <h5>Lorem ipsum</h5>
+                                <h6>Lorem ipsum</h6>
+
+                            </div>
+
+                            <div class="markup">
+
+                        <pre class="language-markup line-numbers"><code class="language-markup" id="titles-markup">&lt;h1&gt;Lorem ipsum&lt;/h1&gt;
+&lt;h2&gt;Lorem ipsum&lt;/h2&gt;
+&lt;h3&gt;Lorem ipsum&lt;/h3&gt;
+&lt;h4&gt;Lorem ipsum&lt;/h4&gt;
+&lt;h5&gt;Lorem ipsum&lt;/h5&gt;
+&lt;h6&gt;Lorem ipsum&lt;/h6&gt;</code></pre>
+
+                            </div>
+
+                        </div>
+
+                        <h5>Lead body</h5>
+
+                        <p>Draw attention to an introduction by sizing it up with the <code class="language-markup">.lead-copy</code> class.</p>
+
+                        <div class="code-snippet">
+
+                            <div class="header">
+
+                                <em>Example</em>
+
+                                <a class="copy-link" href="#" id="copy-lead">Copy</a>
+
+                            </div>
+
+                            <div class="element drilldown-indicator-example">
+
+                                <p class="lead-copy">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+
+                            </div>
+
+                            <div class="markup">
+
+                            <pre class="language-markup line-numbers"><code class="language-markup" id="lead-markup">&lt;p class="lead-copy"&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.&lt;/p&gt;</code></pre>
+
+                            </div>
+
+                        </div>
+
+                        <h5>Body copy</h5>
+                        <p>Fluency <code class="language-markup">&lt;p&gt;</code> tags have a font-size of 16px and a line-height of 22px. There’s a [margin-bottom] of 20px applied to each <code class="language-markup">&lt;p&gt;</code> tag.</p>
+
+                        <div class="code-snippet">
+
+                            <div class="header">
+
+                                <em>Example</em>
+
+                                <a class="copy-link" href="#" id="copy-body">Copy</a>
+
+                            </div>
+
+                            <div class="element drilldown-indicator-example">
+
+                                <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+
+                            </div>
+
+                            <div class="markup">
+
+                            <pre class="language-markup line-numbers"><code class="language-markup" id="body-markup">&lt;p&gt;Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.&lt;/p&gt;</code></pre>
+
+                            </div>
+
+                        </div>
+
+                        <h5>Small and lighten</h5>
+                        <p>Often used in conjunction with the <code class="language-markup">.lighten</code> class, the <code class="language-markup">&lt;small&gt;</code> tag reduces the size of the of text by 85%. This is a great way to include relevant details underneath a heading.</p>
+
+                        <div class="code-snippet">
+
+                            <div class="header">
+
+                                <em>Example</em>
+
+                                <a class="copy-link" href="#" id="copy-small">Copy</a>
+
+                            </div>
+
+                            <div class="element drilldown-indicator-example">
+
+                                <p class="small lighten">Nullam dictum felis eu pede mollis pretium</p>
+
+                            </div>
+
+                            <div class="markup">
+
+                            <pre class="language-markup line-numbers"><code class="language-markup" id="small-markup">&lt;p class="small lighten"&gt;Nullam dictum felis eu pede mollis pretium&lt;/p&gt;</code></pre>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Icon Feature -->
+
+                    <div class="feature">
+
+                        <h4 id="icon-anchor">Icons</h4>
+
+                        <p>Icon fonts help users navigate their way through an application without having to read. Fluency incorporates a limited portion of Font Awesome for this purpose. Use the <code class="language-markup">&lt;i&gt;</code> tag with the following classes as needed.</p>
+
+                        <div class="code-snippet">
+
+                            <div class="header">
+
+                                <em>Example</em>
+
+                                <a class="copy-link" href="#" id="copy-icons">Copy</a>
+
+                            </div>
+
+                            <div class="element font-icons">
+
+                                <ul>
+                                    <li><i class="fa fa-expand"></i></li>
+                                    <li><i class="fa fa-compress"></i></li>
+                                    <li><i class="fa fa-fast-backward"></i></li>
+                                    <li><i class="fa fa-step-backward"></i></li>
+                                    <li><i class="fa fa-backward"></i></li>
+                                    <li><i class="fa fa-forward"></i></li>
+                                    <li><i class="fa fa-step-forward"></i></li>
+                                    <li><i class="fa fa-fast-forward"></i></li>
+                                    <li><i class="fa fa-play-circle"></i></li>
+                                    <li><i class="fa fa-play-circle-o"></i></li>
+                                    <li><i class="fa fa-play"></i></li>
+                                    <li><i class="fa fa-pause"></i></li>
+                                    <li><i class="fa fa-stop"></i></li>
+                                    <li><i class="fa fa-volume-off"></i></li>
+                                    <li><i class="fa fa-volume-down"></i></li>
+                                    <li><i class="fa fa-volume-up"></i></li>
+                                </ul>
+
+                            </div>
+
+                            <div class="markup">
+
+                            <pre class="language-markup line-numbers"><code class="language-markup" id="icon-markup">&lt;i class="fa fa-expand"&gt;&lt;/i&gt;
+&lt;i class="fa fa-compress"&gt;&lt;/i&gt;
+&lt;i class="fa fa-fast-backward"&gt;&lt;/i&gt;
+&lt;i class="fa fa-step-backward"&gt;&lt;/i&gt;
+&lt;i class="fa fa-backward"&gt;&lt;/i&gt;
+&lt;i class="fa fa-forward"&gt;&lt;/i&gt;
+&lt;i class="fa fa-step-forward"&gt;&lt;/i&gt;
+&lt;i class="fa fa-fast-forward"&gt;&lt;/i&gt;
+&lt;i class="fa fa-play-circle"&gt;&lt;/i&gt;
+&lt;i class="fa fa-play-circle-o"&gt;&lt;/i&gt;
+&lt;i class="fa fa-play"&gt;&lt;/i&gt;
+&lt;i class="fa fa-pause"&gt;&lt;/i&gt;
+&lt;i class="fa fa-stop"&gt;&lt;/i&gt;
+&lt;i class="fa fa-volume-off"&gt;&lt;/i&gt;
+&lt;i class="fa fa-volume-down"&gt;&lt;/i&gt;
+&lt;i class="fa fa-volume-up"&gt;&lt;/i&gt;</code></pre>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Button Feature -->
+
+                    <div class="feature">
+
+                        <h4 id="button-anchor">Buttons</h4>
+
+                        <p>Fluency has standard three button sizes associated with the <code class="language-markup">&lt;button&gt;</code> class.</p>
+
+                        <div class="code-snippet">
+
+                            <div class="header">
+
+                                <em>Example</em>
+
+                                <a class="copy-link" href="#" id="copy-buttons">Copy</a>
+
+                            </div>
+
+                            <div class="element button-link">
+                                <a class="button large-button">Large button</a>
+                                <div class="clearfix"></div>
+                                <a class="button medium-button">Medium button</a>
+                                <div class="clearfix"></div>
+                                <a class="button small-button">Small button</a>
+                            </div>
+
+                            <div class="markup">
+
+                            <pre class="language-markup line-numbers"><code class="language-markup" id="button-markup">&lt;a class="button large-button"&gt;Large button&lt;/a&gt;
+&lt;a class="button medium-button"&gt;Medium button&lt;/a&gt;
+&lt;a class="button small-button"&gt;Small button&lt;/a&gt;</code></pre>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Input Feature -->
+
+                    <div class="feature">
+
+                        <h4 id="input-anchor">Inputs</h4>
+
+                        <p>Three <code class="language-markup">&lt;input&gt;</code> sizes and two <code class="language-markup">&lt;textarea&gt;</code> sizes are included.</p>
+
+                        <div class="code-snippet">
+
+                            <div class="header">
+
+                                <em>Example</em>
+
+                                <a class="copy-link" href="#" id="copy-inputs">Copy</a>
+
+                            </div>
+
+                            <div class="element">
+                                <input class="large-input" type="text" />
+                                <div class="clearfix"></div>
+                                <input class="medium-input" type="text" />
+                                <div class="clearfix"></div>
+                                <input class="small-input" type="text" />
+                            </div>
+
+                            <div class="markup">
+
+                            <pre class="language-markup line-numbers"><code class="language-markup" id="input-markup">&lt;input class="large-input" type="text" /&gt;
+&lt;input class="medium-input" type="text" /&gt;
+&lt;input class="small-input" type="text" /&gt;</code></pre>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Links Feature -->
+
+                    <div class="feature">
+
+                        <h4 id="link-anchor">Links</h4>
+
+                        <p>Standard <code class="language-markup">&lt;a&gt;</code> tags are included in blue with a <code class="language-css">text-decoration: underline;</code> hover state. Icon fonts are paired in proportion to links when nested inside of <code class="language-markup">&lt;a&gt;</code> and <code class="language-markup">&lt;span&gt;</code> tags.</code></p>
+
+                        <div class="code-snippet">
+
+                            <div class="header">
+
+                                <em>Example</em>
+
+                                <a class="copy-link" href="#" id="copy-pair">Copy</a>
+
+                            </div>
+
+                            <div class="element icon-link">
+
+                                <a>Standard link</a>
+                                <div class="clearfix"></div>
+                                <span class="icon-pair"><i class="fa fa-play-circle"></i> <a>Icon link pair</a></span>
+
+                            </div>
+
+                            <div class="markup">
+
+                            <pre class="language-markup line-numbers"><code class="language-markup" id="pair-markup">&lt;a&gt;Standard link&lt;/a&gt;
+&lt;span class="icon-pair"&gt;&lt;a&gt;&lt;i class="fa fa-play-circle"&gt;&lt;/i&gt; Icon link pair&lt;/a&gt;&lt;/span&gt;</code></pre>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!-- Components section -->
+
+                <!-- Menu Feature -->
+
+                <section>
+
+                    <h3 id="components-anchor">Components</h3>
+
+                    <div class="feature">
+
+                        <h4 id="navigation-anchor">Navigation</h4>
+
+                        <p>Fluency includes two anchored navigation bars. One has a vertical orientation with icons. The other is horizontal and includes labels.</p>
+
+                        <div class="code-snippet">
+
+                            <div class="header">
+
+                                <em>Example</em>
+
+                                <a class="copy-link" href="#" id="copy-nav-one">Copy</a>
+
+                            </div>
+
+                            <div class="element vertical-menu-markup">
+
+                            <div class="menu vertical-orientation">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="fa fa-home"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-film"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-share"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="markup">
+
+                        <pre class="language-markup line-numbers"><code class="language-markup" id="nav-one-markup">&lt;div class="menu vertical-orientation"&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            &lt;a href="#"&gt;&lt;i class="fa fa-home"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;a href="#"&gt;&lt;i class="fa fa-film"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;a href="#"&gt;&lt;i class="fa fa-share"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;</code></pre>
+
+                            </div>
+
+                        </div>
+
+                        <div class="code-snippet">
+
+                            <div class="header">
+
+                                <em>Example</em>
+
+                                <a class="copy-link" href="#" id="copy-nav-two">Copy</a>
+
+                            </div>
+
+                            <div class="element horizontal-menu-markup">
+
+                            <div class="menu horizontal-orientation">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="fa fa-home"></i> Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-film"></i> Film</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-share"></i> Share</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            </div>
+
+                            <div class="markup">
+
+                            <pre class="language-markup line-numbers"><code class="language-markup" id="nav-two-markup">&lt;div class="menu horizontal-orientation"&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            &lt;a href="#"&gt;&lt;i class="fa fa-home"&gt;&lt;/i&gt; Home&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;a href="#"&gt;&lt;i class="fa fa-film"&gt;&lt;/i&gt; Film&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;a href="#"&gt;&lt;i class="fa fa-share"&gt;&lt;/i&gt; Share&lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;</code></pre>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="feature">
+
+                    <!-- Playlist Feature -->
+
+                    <h4 id="playlist-anchor">Playlist</h4>
+
+                    <p>This playlist controller lists chapter titles. Accompanying Javascript to come.</p>
+
+                    <div class="code-snippet">
+
+                        <div class="header">
+
+                            <em>Example</em>
+
+                            <a class="copy-link" href="#" id="copy-playlist">Copy</a>
+
+                        </div>
+
+                        <div class="element">
+
+                        <div class="playlist">
+                            <h2>Playlist</h2>
+                            <ul>
+                                <li><a href="#">Chapter one</a></li>
+                                <li><a href="#">Chapter two</a></li>
+                                <li><a href="#">Chapter three</a></li>
+                                <li><a href="#">Chapter four</a></li>
+                                <li><a href="#">Chapter five</a></li>
+                                <li><a href="#">Chapter six</a></li>
+                            </ul>
+                        </div>
+
+                        </div>
+
+                        <div class="markup">
+
+                        <pre class="language-markup line-numbers"><code class="language-markup" id="playlist-markup">&lt;div class="playlist"&gt;
+&lt;h2&gt;Playlist&lt;/h2&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Chapter one&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Chapter two&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Chapter three&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Chapter four&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Chapter five&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Chapter six&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</code></pre>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section>
+
+                    <h3 id="javascript-anchor">Javascript</h3>
+
+                    <div class="feature">
+
+                    <!-- Playlist Feature -->
+
+                    <h4 id="playlist-anchor">Branded loader</h4>
+
+                    <p>Video requires bandwidth. This makes a loader a large part of the user experience. Swap out our logo for your own by editing the <code class="language-markup">&lt;img&gt;</code> tag.</p>
+
+                    <div class="code-snippet">
+
+                        <div class="header">
+
+                            <em>Example</em>
+
+                            <a class="copy-link" href="#" id="copy-loader">Copy</a>
+
+                        </div>
+
+                        <div class="element">
+
+                            <div class="loader-overlay"></div>
+                            <div class="loader-content">
+                                <img src="images/logo_triangle.png" class="loader">
+                                <div class="clearfix"></div>
+                                <span style="">Loading...</span>
+                            </div>
+
+                        </div>
+
+                        <div class="markup">
+
+                        <pre class="language-markup line-numbers"><code class="language-markup" id="loader-markup">&lt;div class="loader-overlay"&gt;&lt;/div&gt;
+&lt;div class="loader-content"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="images/logo_triangle.png" class="loader"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="clearfix"&gt;&lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;span style=""&gt;Loading...&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section>
+
+                    <h3>Download</h3>
+
+                    <p>Download this <a href="">early version</a>, or check us out on <a href="https://github.com/interactivedocs/fluency" target="_blank">GitHub</a> and get involved!</p>
+
+                </section>
+
+                <!--<p id="description">Yo this is a test</p>-->
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div data-spy="affix" data-offset-top="830" data-offset-bottom="739">
+
+                    <div class="fluency-menu navbar-example">
+
+                        <img src="images/fluency/menu-decoration.png" />
+
+                        <ul class="nav">
+                            <li><a href="#css-anchor">CSS</a></li>
+                            <li>
+                                <ul>
+                                    <li><a href="#typography-anchor">Typography</a></li>
+                                    <li><a href="#icon-anchor">Icons</a></li>
+                                    <li><a href="#button-anchor">Buttons</a></li>
+                                    <li><a href="#input-anchor">Inputs</a></li>
+                                    <li><a href="#link-anchor">Links</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#components-anchor">Components</a></li>
+                            <li>
+                                <ul>
+                                    <li><a href="#navigation-anchor">Navigation</a></li>
+                                    <li><a href="#playlist-anchor">Playlist</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#javascript-anchor">Javascript</a></li>
+                            <li>
+                                <ul class="inactive-links">
+                                    <li><a href="#javascript-anchor">Branded load screen</li>
+                                    <li><a href="#javascript-anchor">Drill down indicator</li>
+                                    <li><a href="#javascript-anchor">Animated exploder</li>
+                                    <li><a href="#javascript-anchor">Audio track toggle</li>
+                                    <li><a href="#javascript-anchor">Standard controls</li>
+                                    <li><a href="#javascript-anchor">Duration slider</li>
+                                    <li><a href="#javascript-anchor">Freeze frames</li>
+                                    <li><a href="#javascript-anchor">Transitions</li>
+                                    <li><a href="#javascript-anchor">Chapters</li>
+                                    <li><a href="#javascript-anchor">Parallax</li>
+                                    <li><a href="#javascript-anchor">Tooltips</li>
+                                    <li><a href="#javascript-anchor">Events</li>
+                                    <li><a href="#javascript-anchor">Alerts</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div class="container">
+
+            <div class="col-md-2">
+                <ul>
+                    <li onclick="location.href='index.html#projects';">projects</li>
+                    <li onclick="location.href='index.html#team';">team</li>
+                    <li onclick="location.href='index.html#format';">format</li>
+                    <li onclick="location.href='index.html#hackathons';">hackathons</li>
+                    <li onclick="location.href='index.html#sponsorship';">sponsorship</li>
+                    <!--<li data-toggle="modal" data-target="#js-contact-modal">contact us</li>-->
+                </ul>
+            </div>
+
+            <div class="col-md-2">
+                <ul>
+                    <!--<li><a href="#"><i class="fa fa-twitter"></i>twitter</a></li>-->
+                    <!--<li><a href="#"><i class="fa fa-vimeo-square"></i>vimeo</a></li>-->
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-md-offset-4">
+                <img src="images/sffs_logo.png" width="250"/>
+                <div class="clear"></div>
+                <small>Fiscal sponsorship for Interactive Docs is<br/>provided by the San Francisco&nbsp;Film&nbsp;Society.</small>
+            </div>
+
+        </div>
+
+    </footer>
+
+</div>
+
+    <script type="text/javascript">
+
+        $(window).load(function() {
+            $('.fade-in-page').animate({opacity: 1.0}, 1000);
+        });
+
+        //zClip
+        $(document).ready(function(){
+
+            $('#copy-head').zclip({
+                path:'js/ZeroClipboard.swf',
+                copy:$('#head-markup').text()
+            });
+
+            $('#copy-titles').zclip({
+                path:'js/ZeroClipboard.swf',
+                copy:$('#titles-markup').text()
+            });
+
+            $('#copy-lead').zclip({
+                path:'js/ZeroClipboard.swf',
+                copy:$('#lead-markup').text()
+            });
+
+            $('#copy-body').zclip({
+                path:'js/ZeroClipboard.swf',
+                copy:$('#body-markup').text()
+            });
+
+            $('#copy-small').zclip({
+                path:'js/ZeroClipboard.swf',
+                copy:$('#small-markup').text()
+            });
+
+            $('#copy-icons').zclip({
+                path:'js/ZeroClipboard.swf',
+                copy:$('#icon-markup').text()
+            });
+
+            $('#copy-buttons').zclip({
+                path:'js/ZeroClipboard.swf',
+                copy:$('#button-markup').text()
+            });
+
+            $('#copy-inputs').zclip({
+                path:'js/ZeroClipboard.swf',
+                copy:$('#input-markup').text()
+            });
+
+            $('#copy-pair').zclip({
+                path:'js/ZeroClipboard.swf',
+                copy:$('#pair-markup').text()
+            });
+
+            $('#copy-nav-one').zclip({
+                path:'js/ZeroClipboard.swf',
+                copy:$('#nav-one-markup').text()
+            });
+
+            $('#copy-nav-two').zclip({
+                path:'js/ZeroClipboard.swf',
+                copy:$('#nav-two-markup').text()
+            });
+
+            $('#copy-playlist').zclip({
+                path:'js/ZeroClipboard.swf',
+                copy:$('#playlist-markup').text()
+            });
+
+            $('#copy-loader').zclip({
+                path:'js/ZeroClipboard.swf',
+                copy:$('#loader-markup').text()
+            });
+
+            // The link with ID "copy-description" will copy
+            // the text of the paragraph with ID "description"
+
+        });
+
+        $("#copy-button").zclip({
+            path: "js/ZeroClipboard.swf",
+            copy: function(){
+            return $(this).prev().val();
+            }
+        });
+
+        $('.copy-link').click(function() {
+            $(this).css("background-color","#80b14d").text("Copied!");
+            setTimeout(function () {
+                $('.copy-link').css("background-color","#2a8cb6").text("Copy");
+            }, 2000);
+        });
+
+    </script>
+
+</body>
