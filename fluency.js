@@ -5,7 +5,10 @@
  */
 
 /* Branded loader */
-$(window).load(function() {
-    $('.loader-overlay').fadeOut();
-    $('.loader-content').fadeOut();
-});
+/*<ul class="playlist-gallery horizontal-small">
+	<li data-timecode="5600" data-duration=""></li>
+</ul>*/
+
+
+
+
