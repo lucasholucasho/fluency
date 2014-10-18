@@ -7,9 +7,13 @@
     "example": "examples"
   },
   "dependencies": {
-    "node-static": "~0.7.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "express": "~4.9.8",
+    "body-parser": "~1.9.0",
+    "errorhandler": "~1.2.2",
+    "method-override": "~2.3.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
