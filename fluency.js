@@ -5,7 +5,3 @@
  */
 
 /* Branded loader */
-$(window).load(function() {
-    $('.loader-overlay').fadeOut();
-    $('.loader-content').fadeOut();
-});
