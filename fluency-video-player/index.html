@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title></title> <!-- page title goes here -->
+		<meta http-equiv="Content-Type" content="text/html">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link href="css/fluency-video.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body> 
+		<div class='container-fluid offset1'>
+			<div class='row-fluid center'>
+				<div class='span10 logoBar'>
+					<img src="images/"><!-- your logo path goes here -->
+				</div> 		
+			</div>
+			<div class='row-fluid center'>
+				<div id='titleBar' class='span10'></div> 
+			</div>
+			<div class='row-fluid center'>
+				<div id='spacerBar' class='span10'></div> 
+			</div>
+			
+			<div class='row-fluid center' >
+				<div class='row-fluid span10 mainContent'>
+					<div class='span8 center'>
+						<div class='videoPlayerWindow'>
+							<video id="thisVideo" name="thisVideo" controls="controls" autoplay poster="videos/ch01.jpg" autonclick="if(/Android/.test(navigator.userAgent))this.play();">
+								<source src="videos/ch01.mp4" type="video/mp4" /> <!-- preload your default video here -->
+								<source src="videos/ch01.ogv" type="video/ogg" /> <!-- preload your default video here -->
+							</video>
+						</div>
+					</div>
+
+					<div class='span4 navBar'>
+						<h3 id='navBarHeader'>PLAYLIST</h3>
+						<ul id="navBarData"></ul>	
+					</div>
+				</div>
+			</div>	 
+
+			<div class='row-fluid center'>
+
+				<!-- <div class='span10 bottomContent'>
+					<div class='span12 footer'>
+						<hr>
+						<h3>CONFIDENTIALITY NOTICE</h3>
+				    	<p>This video (including any attachments) contains information that may be confidential.&nbsp; Unless you are authorized to view this content, you may not read, print, retain, use, copy, distribute or disclose to anyone the message or any information contained in the video.&nbsp; If you have arrived at this page in error, please close this browser window and delete any files that you may have downloaded from this site.</p>
+				    	<hr>
+			    	</div>
+			    	<div class="span10 footer-logo">
+			    	</div>
+		    	</div> -->
+
+			</div>
+	</div> <!-- end container -->
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/mustache.js"></script>
+		<script src="js/fluency-video-player.js"></script>
+	</body>
+</html>
+
+
