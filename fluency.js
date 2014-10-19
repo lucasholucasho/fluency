@@ -12,9 +12,3 @@
 
 
 
-/*The badge component in Bootstrap works the following way:
-
-less/variables.less includes variables that less/badges.less uses to define badges.
-less/bootstrap.less then includes badges.less to make the component. The bulk of the
-object variation is in badges.less. Then, ~/Gruntfile.js converts bootstrap.less in to css.
-
